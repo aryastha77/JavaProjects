@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.maindiv{
+    height: 100vh;
+    width: 100vw;
+    /* display:flex; */
+}
+.box{
+    width:350px;
+    height: 150px;
+    background-color: rgb(49, 124, 190);
+    border-radius: 60px;
+    transform:translate(600px, 300px)
+}
+.button{
+    color: black;
+    transform: translate(115px, 50px);
+}
+#btn{
+    padding:15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+:hover button #btn{
+     background-color: red;
+     color:white;
+}
