@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="movie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <title>BINGE TV</title>
+</head>
+<body>
+    <section>
+        <div class="navbar">
+            <div class="logo">
+                <a href="movieCode.html">
+                    <img src="BINGE TV (2).png" class="image">
+                </a>
+            </div>  
+        </div>
+    </section>
+    <section class="searching">
+        <div>
+            <input type="text" id="myinput" placeholder="Enter the keywords" class="white">
+        </div>
+        <div class="icon" onclick="ajaxOmdb()">
+            <i class="fas fa-search" style=" background-color:rgb(237, 18, 109);"></i>
+        </div>
+    </section>
+    <b> <span id="responsestatus" class="new"></span></b><br>
+    <b> <span id="totalResponse" class="new"></span></b>
+    <div class="myalldata"></div>
+    <div class="myalldata movie-item-container"></div>
+    <button id="LoadMoreBtn" onclick="loadMore()" class = "new">Load more</button>
+    <script src="movie.js"></script>
+</body>
+</html>

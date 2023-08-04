@@ -1,0 +1,39 @@
+{
+    "movies": [
+      {
+        "id": 1,
+        "title": "lalala",
+        "genre": "Romcom",
+        "director": "Francis Ford Coppola",
+        "releaseYear": 1972
+      },
+      {
+        "id": 2,
+        "title": "Pulp Fiction",
+        "genre": "Crime",
+        "director": "Quentin Tarantino",
+        "releaseYear": 1994
+      },
+      {
+        "id": 3,
+        "title": "  Openheimer",
+        "genre": "Mystery",
+        "director": "Andrews huberman",
+        "releaseYear": 1989
+      },
+      {
+        "id": 4,
+        "title": "Main Tero Hero",
+        "genre": "funny",
+        "releaseYear": 1980
+      },
+      {
+        "id": 6,
+        "title": "Hum sath sath hain",
+        "genre": "Family",
+        "director": "Yash Chopra",
+        "releaseYear": 1988
+      }
+  
+    ]
+  }

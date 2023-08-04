@@ -1,0 +1,125 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    
+    
+
+ 
+}
+.logo{
+    margin-left: 40px;
+    
+}
+
+.image{
+    width:80px;
+    height:70px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+    height:70px;
+    
+}
+.menu{
+    padding:25px 10px;
+    margin-right: 10px;
+    word-spacing: 10px;
+    color:white;
+    
+}
+#myinput{
+    width:452px;
+    margin-top:270px;
+    padding:16px;
+    margin-left:440px;
+}
+.searching{
+    display:flex;
+
+}
+icon i{
+    background-color:rgb(237, 18, 109);
+}
+.icon{
+    margin-top:270px;
+    background-color:rgb(237, 18, 109);
+    padding:10px 15px;
+    font-size: 24px;
+    color:white;
+}
+
+.new{
+    visibility: hidden;
+}
+.white{
+    background-color: white;
+}
+.searching.active {
+    position: relative;
+  }
+  
+  .searching.active input[type="text"] {
+    width: 300px !important;
+    padding: 5px !important;
+    border-radius: 10px;
+    margin-top: -60px !important;
+    transition: width 0.5s, padding 0.5s;
+    position: absolute;
+    top: 10px;
+    right: 9px;
+  }
+  
+  .searching.active .icon {
+    transform: translateY(-50%) !important;
+    width: 10px !important;
+    height: 10px;
+    padding: 10px;
+    margin-top: -35px;
+    font-size: 10px;
+    border-radius: 20%;;
+    margin-left: 1415px; /* Adjust this value to position the icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+  }
+  
+  .myalldata {
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+  }
+  
+  .movie-item {
+    width: 16.66%; /* Adjust this value to control the number of movies per row (e.g., 20% for 5 movies) */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .movie-image {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .movie-details {
+    margin-top: 10px;
+  }
+  #LoadMoreBtn {
+    display: block;
+    visibility: visible;
+    background-color:black;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #LoadMoreBtn:hover {
+    background-color: #45a049;
+  }

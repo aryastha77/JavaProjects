@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,500;1,100&family=Source+Code+Pro&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+}
+.maindiv{
+    font-family: 'Poppins', sans-serif;;
+    width:100vw;
+    height:100vh;
+    background-color: rgb(180, 219, 219);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position:relative;
+    width: 50vw;
+    height:60vh;
+    padding:50px 0;
+    /* background-color: rgb(114, 201, 221); */
+}
+.container .slider{
+    position:relative;
+    text-align: center;
+    width:50vw;
+    height:50vh;
+}
+.container .person1{
+    width: 20%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.slider p{
+    font-family: 'Poppins', sans-serif;;
+    color: #333;
+    padding: 10px 100px;
+}
+.slider .quoteIcon{
+    color: darkblue;
+    font-size: 40px;
+    padding:10px;
+}
+.slider .detail{
+    display:flex;
+    flex-direction: column;
+}
+.detail .name{
+    font-weight: 600;
+    font-size: 20px;
+}
+.detail .job{
+    font-weight: 600;
+    font-size: 10px;
+}
+
